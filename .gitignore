@@ -9,3 +9,4 @@ scripts/*.js
 hardhat.config.js
 abi
 artifacts
+DS_Store
