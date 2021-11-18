@@ -1,42 +1,39 @@
-# Advanced Sample Hardhat Project
+# BLAZING DAO CONTRACTS ADDRESSES
 
-This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
+You can verify our contracts addresses on https://ftmscan.com
 
-The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
+Mainnet ftm addresses
 
-Try running some of the following tasks:
+**BLAZ : **0xA7182C8AAF412258B130dc3e90656320d01259B4
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-npx hardhat help
-REPORT_GAS=true npx hardhat test
-npx hardhat coverage
-npx hardhat run scripts/deploy.js
-node scripts/deploy.js
-npx eslint '**/*.js'
-npx eslint '**/*.js' --fix
-npx prettier '**/*.{json,sol,md}' --check
-npx prettier '**/*.{json,sol,md}' --write
-npx solhint 'contracts/**/*.sol'
-npx solhint 'contracts/**/*.sol' --fix
-```
+**DAO : **0x8F1341cd7745f45d1E38Fbc117B64C7530559219
 
-# Etherscan verification
+**Circulating supply: **0xee9a1e6819872c35dBa9F2c1d953789fBAc26713
 
-To try out Etherscan verification, you first need to deploy a contract to an Ethereum network that's supported by Etherscan, such as Ropsten.
+**LP DAI_BLAZ Spookyswap: **0x727E5A4713e032889dD9F0C774B256b5b50454bB
 
-In this project, copy the .env.example file to a file named .env, and then edit it to fill in the details. Enter your Etherscan API key, your Ropsten node URL (eg from Alchemy), and the private key of the account which will send the deployment transaction. With a valid .env file in place, first deploy your contract:
+**BondingCalculator:** 0x92f7fB088Ba77d0d8AAC966DB33a3221813d0935
 
-```shell
-hardhat run --network ropsten scripts/deploy.js
-```
+**Treasury :** 0x95AC02D3F4394198966C8B69baF1580851337DF8
 
-Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
+**StakingDistributor:** 0x1447E0cf08cABCe0126fDAEcd9f5F736A474e4e3
 
-```shell
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
-```
+**sBlaz :** 0x77d40528749984ca49a1288deeDa9221c5f870ca
+
+**Staking:** 0x85C2a6Bfd7F8Fed229A1AFDE2F9dF482EB2f7E51
+
+**StakingWarmup:** 0x401C3bD98C3c8931E5C903a2751D1796669D5bf9
+
+**StakingHelper:** 0xbBA4caD37924e9Bb579DfBB590a26d9b29Ea0089
+
+**daiBond:** 0x501E36518ACee86Dd5c8a43825276eEA5Db3c022
+
+**daiBlazBond:** 0xEf9aFCBDF052277BFEA8e958B2FAc2C34aA6C6C8
+
+**DAI RESERVE :** 0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E
+
+**DAI BLAZ RESERVE :** 0x727E5A4713e032889dD9F0C774B256b5b50454bB (LP ADDRESS)
+
+**REDEEM HELPER:** 0x2cBbc2cf98eD315c4143636F866e4631254C10CB
+
+
